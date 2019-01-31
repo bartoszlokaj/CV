@@ -1,21 +1,85 @@
-html{ box-sizing: border-box }
-
-body{
-  background: #0B053E;
-  font-family: 'Lato', sans-serif;
-  font-size: 20px;
+* {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Krub', sans-serif;
 }
 
-.container{
-  width: 595px;
-  height: 1000px;
-  margin: 20px auto 20px auto;
-  padding: 20px;
-  background: #fafafa;
-  border: 1px solid #666;
-  box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.75);
+body {
+  background-image: linear-gradient( #fff, #F2F2F3, #CECECE );
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-size: 25px;
+  color: #fff;
+  
+}
+
+.container {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: flex-start;
+  
 }
 
+.top {
+  width: 100%;
+  /* height: 150px; */
+  background-image: linear-gradient(to bottom right,  #F1425E, #E41737);
+  /* background: #f1425d; */
+  padding: 20px;
+  font-size: 50px;
+  display: flex;
+  text-align: center;
+  border-bottom: 1px solid  #E41737;
+}
+
+.left {
+  width: 40%;
+  padding: 10px;
+  /* background: #f1425d; */
+  border-right: 1px solid  #E41737;
+}
+
+.right {
+  width: 60%;
+  padding: 10px;
+  /* background: #f1425d; */
+}
+
+.name {
+  text-align: left;
+  text-transform: uppercase;
+  font-size: 50px;
+  letter-spacing: 3px;
+}
+
+.job-title {
+  text-align: justify;
+  text-transform: uppercase;
+  font-size: 30px;
+  letter-spacing: 3px;
+
+}
+
+.sub-header {
+  text-transform: uppercase;
+  letter-spacing: 1px;  
+  margin: 15px 15px 15px 0;
+}
+
+.paragraph {
+  max-width: 800px;
+  color: #969696;
+  text-align: justify;
+  align-self: center;
+  padding: 30px;
+  border-bottom: 1px solid #969696;
+}
+
+ul {
+  margin: 15px 22px;
+}
+
+ul li {
+  line-height: 200%;
+}
