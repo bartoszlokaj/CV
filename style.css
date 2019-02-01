@@ -83,10 +83,11 @@ body {
 }
 
 .right {
-  max-width: 550px; 
+  width: 550px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-left: 60px;
 }
 
 .photo {
@@ -158,6 +159,7 @@ h3 {
 .about-me {
   text-align: center;
   padding: 20px;
+  padding-bottom: 26px;
   margin: 20px;
   border-bottom: 1px solid #666;
 }
@@ -169,6 +171,7 @@ h3 {
 .projects {
   text-align: center;
   padding: 20px;
+  padding-bottom: 51px;
   margin: 20px;
   margin-top: 0;
   border-bottom: 1px solid #666;
