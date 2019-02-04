@@ -111,6 +111,14 @@ body {
   /* border-bottom: 1px solid #666; */
 }
 
+.contact a {
+  color: #666;
+}
+
+.contact a:hover {
+  color: #000;
+}
+
 .skills {
   width: 300px;
   padding: 20px;
